@@ -233,7 +233,7 @@ header .burger:hover{
 	border: none;
 	background: #fff;
 	border-radius: 5px;
-	color: #fff;
+	color: #444;
 	box-shadow: 0 0 2px #999;
 }
 #contact form button{
