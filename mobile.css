@@ -1,0 +1,65 @@
+@media (max-width: 640px){
+	header nav{
+		height: 100vh;
+		width: 40%;
+		position: absolute;
+		top:50px;
+		left: -100%;
+		background: #f4f4f4;
+
+		display: flex;
+		flex-direction: column;
+		overflow:hidden;
+	}
+
+	header nav a{
+		font-size: 14px;
+		color: #333;
+		font-weight: bold;
+		width: 100%;
+		padding: 20px 60px;
+	}
+	
+	header .burger{
+		display: block;
+	}
+
+	.navmobile{
+		left: 0;
+	}
+
+	#satu{
+		height: 300px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+	}
+	#satu .logo{
+		height: 150px;
+		width: 150px;
+		margin-bottom: 20px;
+	}
+	#satu .deskripsi{
+		display: block;
+		text-align: center;
+		width: 100%;
+		height: 300px;
+	}
+	#satu h1{
+		font-size: 34px;
+		margin-bottom: 10px;
+	}
+	#satu p{
+		font-size: 14px;
+	}
+
+
+	#dua h1{
+		font-size: 24px;
+	}
+	#dua .tim{
+		grid-template-columns: 1fr;
+	}
+}

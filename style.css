@@ -1,0 +1,180 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Montserrat, sans-serif;
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #333;
+	height: 50px;
+	color: #f4f4f4;
+	padding: 0 8%;
+	overflow: hidden;
+}
+
+header span{
+	color: skyblue;
+}
+
+header nav{
+	display: flex;
+	align-items: center;
+	transition: all 0.3s ease-out;
+}
+
+header a{
+	text-decoration: none;
+	color: #f4f4f4;
+	font-size: 12px;
+	padding: 20px 20px;
+	letter-spacing: 1px;
+	transition: all 0.2s;
+}
+
+header a:hover{
+	background: salmon;
+}
+
+header .burger > div{
+	height: 4px;
+	width: 25px;
+	background: #f4f4f4;
+	margin-bottom: 3px;
+}
+
+header .burger{
+	cursor: pointer;
+	display: none;
+	transition: all 0.3s;
+}
+
+header .burger:hover{
+	opacity: 0.8;
+}
+
+
+
+/*section 1*/
+#satu{
+	width: 100%;
+	min-height: 100vh;
+	padding: 40px 8%;
+	background: #222;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 30px;
+	
+}
+
+#satu .logo{
+	height: 470px;
+	/*width: 500px;*/
+	border-radius: 25px;
+	background: #555;
+	background-image: url('img/logo.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	box-shadow: 0 0 10px #111;
+}
+
+#satu .deskripsi{
+	height: 470px;
+	/*width: 500px;*/
+	
+	color: #f4f4f4;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+
+}
+
+#satu h1{
+	font-size: 64px;
+	margin-bottom: 30px;
+}
+
+#dua {
+	width: 100%;
+	min-height: 100vh;
+	background: #f4f4f4;
+	color: #333;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 40px 8%;
+}
+
+#dua h1{
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+
+#dua .tim {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 20px;
+}
+
+#dua .tim > div{
+	height: 250px;
+	width: 250px;
+	background: skyblue;
+	border-radius: 10px;
+	box-shadow: 0 0 10px #999;
+}
+
+#dua .tim .p1{
+	position: relative;
+	background-image: url('img/tim1.png');
+	background-size: cover;
+	overflow: hidden;
+	text-align: center;
+
+}
+
+#dua  .deskripsi{
+	width: 100%;
+	height: 55px;
+	background: #fff;
+	position: absolute;
+	bottom: 0;
+	color: #333;
+	/*line-height: 40px;*/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#dua .deskripsi p{
+	font-size: 12px;
+}
+
+#dua .tim .p2{
+	position: relative;
+	background-image: url('img/tim2.png');
+	background-size: cover;
+	overflow: hidden;
+	text-align: center;
+}
+#dua .tim .p3{
+	position: relative;
+	background-image: url('img/tim3.png');
+	background-size: cover;
+	overflow: hidden;
+	text-align: center;
+}
+#dua .tim .p4{
+	position: relative;
+	background-image: url('img/tim4.png');
+	background-size: cover;
+	overflow: hidden;
+	text-align: center;
+}
+
