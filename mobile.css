@@ -62,4 +62,12 @@
 	#dua .tim{
 		grid-template-columns: 1fr;
 	}
+
+
+
+
+
+	#contact form{
+		max-width: 80%;
+	}
 }
